@@ -1,7 +1,7 @@
 typedef unsigned long m64;
 typedef unsigned char m8;
 
-#define PROC_KERNEL_MODULE "kernel_mod"
+#define PROC_KERNEL_MODULE "kmod_v2"
 
 #define PROC_VAR1 100
 

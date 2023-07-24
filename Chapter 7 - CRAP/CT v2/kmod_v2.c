@@ -8,7 +8,7 @@
 #include <linux/slab.h>
 #include <linux/random.h>
 #include <linux/uaccess.h>
-#include "./kmod.h"
+#include "./common.h"
 
 static struct proc_dir_entry *procfs_file;
 
